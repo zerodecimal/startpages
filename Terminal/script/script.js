@@ -1,40 +1,42 @@
 const Config = {
-    name: "cialu",
+    name: "eric",
     scale: 1,
     Links: [
         [
             "resources",
             [
-                ["bitly", "https://bitly.com/"],
+                ["git", "http://git-scm.com/doc"],
+                ["puppet", "https://puppet.com/docs"],
+                ["ruby", "http://ruby-doc.org/core-2.4.9/"],
+                ["python", "https://docs.python.org/2.7/"],
+                ["terraform", "https://www.terraform.io/docs/providers/oci/index.html"],
+                ["bash", "http://www.tldp.org/LDP/abs/html/"]
+            ]
+        ],
+        [
+            "code",
+            [
                 ["github", "https://github.com/"],
-                ["pexels", "https://www.pexels.com/"],
-                ["protonmail", "https://mail.protonmail.com/inbox"]
+                ["gitlab", "https://rzslcgitrepo1.rz.nucorsteel.local/"],
+                ["travis", "https://travis-ci.com/"]
             ]
         ],
         [
-            "shopping",
+            "cloud",
             [
-                ["amazon", "https://amzn.to/2puHQNz"],
-                ["drop", "https://drop.com/"],
-                ["ebay", "http://www.ebay.it/"]
-            ]
-        ],
-        [
-            "social",
-            [
-                ["4chan", "https://4chan.org"],
-                ["reddit", "https://reddit.com"],
-                ["youtube", "https://youtube.com"]
+                ["oci-console", "https://console.us-ashburn-1.oraclecloud.com/"],
+                ["omc", "https://smgnextgenomcs-nucorsmgtech.uscom-central-1.oraclecloud.com/emsaasui/emcpdfui/welcome.html"],
+                ["iaas-docs", "https://docs.cloud.oracle.com/iaas/Content/home.htm"],
+                ["cloud-support", "https://support.oracle.com/cloud/faces/serviceRequests"]
             ]
         ],
         [
             "trading",
             [
-                ["finance", "https://finance.yahoo.com/"],
-                ["futures", "https://www.investing.com/indices/indices-futures"],
                 ["markets", "https://www.marketwatch.com/"],
-                ["news", "https://www.cnbc.com/?region=usa"],
-                ["stocks", "https://www.tradingview.com/"]
+                ["futures", "https://www.investing.com/indices/indices-futures"],
+                ["stocks", "https://www.etrade.com/"],
+                ["crypto", "https://www.coinbase.com/"]
             ]
         ]
     ]
